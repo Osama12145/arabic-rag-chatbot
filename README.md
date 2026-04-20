@@ -113,15 +113,4 @@ Key settings in `.env`:
 | `SIMILARITY_THRESHOLD` | `0.1` | Minimum similarity score to include a result |
 | `CHUNK_SIZE` | `1000` | Characters per document chunk |
 
-## Coolify Deployment
 
-1. Push this repo to GitHub
-2. In Coolify, create a new service from the GitHub repo
-3. Add Qdrant as a separate service in Coolify
-4. Set `QDRANT_URL` to the internal Qdrant service URL
-5. Add all required environment variables in Coolify's environment settings
-6. Deploy
-
-## License
-
-MIT
